@@ -1,0 +1,27 @@
+* {
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    margin: 10px;
+    background-color: #ffc500;
+}
+
+.main {
+    width: 70%;
+    margin: 10px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+.sidebar-list > li {
+    margin: 5px;
+}
